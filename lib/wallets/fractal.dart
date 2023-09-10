@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:dio/dio.dart';
-import 'package:web3dart/web3dart.dart';
+import 'package:webthree/webthree.dart';
 
 class CurrencyFractal {
   static final ethClient = Web3Client(

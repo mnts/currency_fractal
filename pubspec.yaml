@@ -9,12 +9,9 @@ environment:
 
 dependencies:
   path: ^1.8.0
-  web3dart: ^2.5.1
-  frac:
-    path: ../frac
-  fractals:
-    path: ../fractals
+  riverpod:
   dio: ^4.0.6
+  webthree: ^2.5.8
 
 dev_dependencies:
   lints: ^2.0.0

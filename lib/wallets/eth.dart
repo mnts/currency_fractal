@@ -1,10 +1,13 @@
 import 'dart:async';
 
-import 'package:frac/frac.dart';
-
-import 'package:web3dart/web3dart.dart';
+import 'package:riverpod/riverpod.dart';
+import 'package:webthree/webthree.dart';
 import '../wallet.dart';
 import 'fractal.dart';
+
+final amountProvider = StateProvider((ref) => 0.0);
+final valueProvider = StateProvider((ref) => '');
+final addressProvider = StateProvider((ref) => '');
 
 class WalletEth extends WalletFractal {
   late EthereumAddress eth;
@@ -14,12 +17,12 @@ class WalletEth extends WalletFractal {
 
   final homeCur = 'USD';
 
-  final amount = Frac<double>(0);
-  final value = Frac<String>('');
-  final address = Frac<String>('');
+  set addressState(String value) =>
+      ref.read(addressProvider.notifier).state = value;
+  String get addressState => ref.read(addressProvider.notifier).state;
 
   WalletEth._(String address) {
-    this.address.value = address;
+    addressState = address;
     init();
   }
 
@@ -29,12 +32,12 @@ class WalletEth extends WalletFractal {
 
   fromMatrixId(matrixId) async {
     final m = await CurrencyFractal.fetchInfo(matrixId);
-    address.value = m['eth'];
+    addressState = m['eth'];
     init();
   }
 
   init() {
-    eth = EthereumAddress.fromHex(address.value);
+    eth = EthereumAddress.fromHex(addressState);
     updateBalance();
   }
 
