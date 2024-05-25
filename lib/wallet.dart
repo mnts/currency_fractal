@@ -1,8 +1,5 @@
-import 'package:riverpod/riverpod.dart';
+import 'package:frac/index.dart';
 
-class WalletFractal extends Notifier {
-  @override
-  build() {
-    return [];
-  }
+class WalletFractal {
+  final amount = Frac<double>(0);
 }

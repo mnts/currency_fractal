@@ -5,13 +5,19 @@ publish_to: none
 # homepage: https://www.example.com
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   path: ^1.8.0
-  riverpod:
-  dio: ^4.0.6
   webthree: ^2.5.8
+  frac:
+    path: ../frac
+  fractal:
+    path: ../fractal
+  fractal_base:
+    path: ../fractal_base
+  signed_fractal:
+    path: ../signed_fractal
 
 dev_dependencies:
   lints: ^2.0.0

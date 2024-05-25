@@ -1,13 +1,8 @@
 import 'dart:async';
 
-import 'package:riverpod/riverpod.dart';
 import 'package:webthree/webthree.dart';
 import '../wallet.dart';
 import 'fractal.dart';
-
-final amountProvider = StateProvider((ref) => 0.0);
-final valueProvider = StateProvider((ref) => '');
-final addressProvider = StateProvider((ref) => '');
 
 class WalletEth extends WalletFractal {
   late EthereumAddress eth;
@@ -17,12 +12,10 @@ class WalletEth extends WalletFractal {
 
   final homeCur = 'USD';
 
-  set addressState(String value) =>
-      ref.read(addressProvider.notifier).state = value;
-  String get addressState => ref.read(addressProvider.notifier).state;
+  String address = ''; //ref.read(addressProvider.notifier).state;
 
   WalletEth._(String address) {
-    addressState = address;
+    address = address;
     init();
   }
 
@@ -32,12 +25,12 @@ class WalletEth extends WalletFractal {
 
   fromMatrixId(matrixId) async {
     final m = await CurrencyFractal.fetchInfo(matrixId);
-    addressState = m['eth'];
+    address = m['eth'];
     init();
   }
 
   init() {
-    eth = EthereumAddress.fromHex(addressState);
+    eth = EthereumAddress.fromHex(address);
     updateBalance();
   }
 
@@ -48,11 +41,13 @@ class WalletEth extends WalletFractal {
     return balance;
   }
 
+  String value = '';
+
   Future<void> updateRate() async {
     await CurrencyFractal.updateRates();
     final value = (CurrencyFractal.rates[homeCur] ?? 0) * amount.value;
     final symbol = CurrencyFractal.symbols[homeCur];
-    this.value.value =
+    this.value =
         '$symbol${value.toStringAsFixed(2)} ${symbol == null ? homeCur : ''}';
     return;
   }

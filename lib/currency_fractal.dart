@@ -1,3 +1,1 @@
-int calculate() {
-  return 6 * 7;
-}
+import 'package:signed_fractal/signed_fractal.dart';
