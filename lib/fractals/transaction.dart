@@ -69,8 +69,9 @@ class TransactionFractal extends EventFractal with Rewritable {
     required this.amount,
     this.status = 0,
     super.to,
+    super.owner,
   })  : from = FR.h(from),
-        thing = thing != null ? FR.h(thing) : null {
+        thing = FR.hn(thing) {
     _construct();
   }
 
@@ -78,7 +79,7 @@ class TransactionFractal extends EventFractal with Rewritable {
       : status = d['limit'] ?? 0,
         amount = (d['amount'] ?? 0).toDouble(),
         from = FR(d['from']),
-        thing = FR(d['thing']),
+        thing = FR.n(d['thing']),
         super.fromMap(d) {
     _construct();
   }
@@ -89,12 +90,19 @@ class TransactionFractal extends EventFractal with Rewritable {
         'thing' => thing?.ref,
         'amount' => amount,
         'status' => status,
-        _ => super[key],
+        _ => super[key] ?? m[key]?.content ?? extend?[key],
       };
 
   @override
   MP toMap() => {
         ...super.toMap(),
-        for (var a in ctrl.attributes) a.name: this[a.name],
+        for (var a in controller.attributes) a.name: this[a.name],
       };
+
+  @override
+  onWrite(f) {
+    final ok = super.onWrite(f);
+    notifyListeners();
+    return ok;
+  }
 }
