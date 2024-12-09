@@ -26,6 +26,7 @@ class TransactionFractal extends EventFractal with Rewritable {
         name: 'from',
         format: 'TEXT',
         canNull: true,
+        isIndex: true,
         isImmutable: true,
       ),
       Attr(
@@ -40,10 +41,13 @@ class TransactionFractal extends EventFractal with Rewritable {
         format: 'REAL',
         canNull: true,
         isImmutable: true,
+        isIndex: true,
       ),
       Attr(
         name: 'status',
+        isIndex: true,
         format: 'INTEGER',
+        options: ['cash', 'card', 'bank', 'crypto', 'other'],
         def: '0',
       ),
     ],
@@ -61,8 +65,6 @@ class TransactionFractal extends EventFractal with Rewritable {
   int status;
   double amount;
 
-  _construct() {}
-
   TransactionFractal({
     required UserFractal from,
     EventFractal? thing,
@@ -71,18 +73,14 @@ class TransactionFractal extends EventFractal with Rewritable {
     super.to,
     super.owner,
   })  : from = FR.h(from),
-        thing = FR.hn(thing) {
-    _construct();
-  }
+        thing = FR.hn(thing) {}
 
   TransactionFractal.fromMap(MP d)
       : status = d['limit'] ?? 0,
         amount = (d['amount'] ?? 0).toDouble(),
         from = FR(d['from']),
         thing = FR.n(d['thing']),
-        super.fromMap(d) {
-    _construct();
-  }
+        super.fromMap(d) {}
 
   @override
   operator [](String key) => switch (key) {

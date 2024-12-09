@@ -1,3 +1,4 @@
+/*
 import 'dart:async';
 
 import 'package:webthree/webthree.dart';
@@ -55,3 +56,5 @@ class WalletEth extends WalletFractal {
   factory WalletEth(String address) =>
       map.putIfAbsent(address, () => WalletEth._(address));
 }
+
+*/

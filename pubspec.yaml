@@ -5,11 +5,10 @@ publish_to: none
 # homepage: https://www.example.com
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
 
 dependencies:
   path: ^1.8.0
-  webthree: ^2.5.8
   frac:
     path: ../frac
   fractal:
@@ -20,5 +19,4 @@ dependencies:
     path: ../signed_fractal
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.16.0
+  lints: ^4.0.0

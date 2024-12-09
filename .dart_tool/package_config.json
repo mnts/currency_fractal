@@ -2,34 +2,16 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "_fe_analyzer_shared",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-67.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "analyzer",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/analyzer-6.4.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "app_fractal",
       "rootUri": "../../app_fractal",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
-      "name": "args",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/args-2.5.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "async",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/async-2.12.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "axi",
@@ -45,39 +27,15 @@
     },
     {
       "name": "bip340",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/bip340-0.2.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/bip340-0.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.13"
     },
     {
       "name": "boolean_selector",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/boolean_selector-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "build",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/build-2.4.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "build_config",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/build_config-1.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "built_collection",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/built_collection-5.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "built_value",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/built_value-8.9.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     },
     {
       "name": "characters",
@@ -86,34 +44,16 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "charcode",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/charcode-1.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "checked_yaml",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "clock",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/clock-1.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "code_builder",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/code_builder-4.10.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "collection",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/collection-1.18.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/collection-1.19.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "color",
@@ -123,19 +63,13 @@
     },
     {
       "name": "convert",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/convert-3.1.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/convert-3.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "coverage",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/coverage-1.7.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "cross_file",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/cross_file-0.3.4+1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/cross_file-0.3.4+2",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -147,15 +81,15 @@
     },
     {
       "name": "crypto",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/crypto-3.0.6",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
     },
     {
       "name": "csslib",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/csslib-1.0.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/csslib-1.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "dart_base_x",
@@ -176,12 +110,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "dart_style",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dart_style-2.3.6",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "diff_match_patch",
       "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
       "packageUri": "lib/",
@@ -189,69 +117,69 @@
     },
     {
       "name": "dio",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio-5.4.3+1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio-5.7.0",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.18"
     },
     {
       "name": "dio_cache_interceptor",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio_cache_interceptor-3.4.2",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio_cache_interceptor-3.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "dio_cache_interceptor_hive_store",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio_cache_interceptor_hive_store-3.2.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio_cache_interceptor_hive_store-3.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/dio_web_adapter-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "expressions",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/expressions-0.2.5+1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/expressions-0.2.5+2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "ffi",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/ffi-2.1.2",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/ffi-2.1.3",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
-      "name": "file",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/file-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "fixnum",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "flutter",
       "rootUri": "file:///home/mk/development/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "frac",
       "rootUri": "../../frac",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.4"
     },
     {
       "name": "fractal",
       "rootUri": "../../fractal",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.4"
     },
     {
       "name": "fractal_base",
       "rootUri": "../../fractal_base",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.4"
     },
     {
       "name": "fractal_server",
@@ -263,7 +191,7 @@
       "name": "fractal_socket",
       "rootUri": "../../fractal_socket",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.4"
     },
     {
       "name": "fractal_utils",
@@ -272,28 +200,10 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "fractal_word",
-      "rootUri": "../../fractal_word",
-      "packageUri": "lib/",
-      "languageVersion": "2.16"
-    },
-    {
       "name": "fractals2d",
       "rootUri": "../../fractals2d",
       "packageUri": "lib/",
       "languageVersion": "3.2"
-    },
-    {
-      "name": "frontend_server_client",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/frontend_server_client-4.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "glob",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/glob-2.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "hive",
@@ -303,33 +213,27 @@
     },
     {
       "name": "html",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/html-0.15.4",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/html-0.15.5",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
     },
     {
       "name": "http",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/http-1.2.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/http-1.2.2",
       "packageUri": "lib/",
       "languageVersion": "3.3"
-    },
-    {
-      "name": "http_multi_server",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/http_multi_server-3.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/http_parser-4.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "idb_shim",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/idb_shim-2.4.1+1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/idb_shim-2.6.1+7",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.5"
     },
     {
       "name": "intl",
@@ -345,9 +249,9 @@
     },
     {
       "name": "js",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/js-0.7.1",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.1"
     },
     {
       "name": "json_annotation",
@@ -356,68 +260,50 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "json_rpc_2",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/json_rpc_2-3.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "lints",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/lints-2.1.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/lints-4.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     },
     {
       "name": "logging",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/logging-1.2.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/logging-1.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
     },
     {
       "name": "logging_appenders",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/logging_appenders-1.3.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/logging_appenders-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/matcher-0.12.17",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "mime",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/mime-1.0.5",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/mime-1.0.6",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
-      "name": "node_preamble",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/node_preamble-2.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "package_config",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/package_config-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "parchment",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/parchment-1.14.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/parchment-1.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -429,9 +315,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/path-1.9.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "petitparser",
@@ -441,81 +327,39 @@
     },
     {
       "name": "pointycastle",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/pointycastle-3.9.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/pointycastle-3.9.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
-    },
-    {
-      "name": "pool",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/pool-1.5.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "position_fractal",
       "rootUri": "../../position_fractal",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "pub_semver",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/pub_semver-2.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "pubspec_parse",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "quiver",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/quiver-3.2.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/quiver-3.2.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "rxdart",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/rxdart-0.27.7",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/rxdart-0.28.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sembast",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sembast-3.7.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sembast-3.8.0",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "shelf",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/shelf-1.4.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shelf_packages_handler",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/shelf_packages_handler-3.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shelf_static",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/shelf_static-1.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shelf_web_socket",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/shelf_web_socket-1.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.5"
     },
     {
       "name": "signed_fractal",
       "rootUri": "../../signed_fractal",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.4"
     },
     {
       "name": "sky_engine",
@@ -524,52 +368,46 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "source_map_stack_trace",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/source_map_stack_trace-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "source_maps",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/source_maps-0.10.12",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
       "name": "source_span",
       "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
-      "name": "sqlite3",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3-2.4.3",
+      "name": "sprintf",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sqlite3",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3-2.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
     },
     {
       "name": "sqlite3_async",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3_async-1.0.4",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3_async-1.0.6",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "sqlite3_flutter_libs",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.21",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.26",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sqlite3_web",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3_web-0.1.0-wip",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/sqlite3_web-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/stack_trace-1.12.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.4"
     },
     {
       "name": "stream_channel",
@@ -578,22 +416,16 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "stream_transform",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
       "name": "string_scanner",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/string_scanner-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.1"
     },
     {
       "name": "synchronized",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/synchronized-3.1.0+1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/synchronized-3.3.0+3",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.5"
     },
     {
       "name": "term_glyph",
@@ -602,40 +434,22 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "test",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/test-1.25.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "test_api",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/test_api-0.7.0",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/test_api-0.7.4",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "test_core",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/test_core-0.6.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.5"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.5"
     },
     {
       "name": "universal_file",
       "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/universal_file-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "universal_html",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/universal_html-2.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "universal_io",
@@ -645,9 +459,9 @@
     },
     {
       "name": "uuid",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/uuid-3.0.7",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/uuid-4.5.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "vector_math",
@@ -656,40 +470,22 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "vm_service",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/vm_service-14.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "watcher",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/watcher-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "web",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/web-0.5.1",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "web_socket",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/web_socket-0.1.6",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "web_socket_channel",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.5",
+      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.3"
-    },
-    {
-      "name": "webkit_inspection_protocol",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/webkit_inspection_protocol-1.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "webthree",
-      "rootUri": "file:///home/mk/.pub-cache/hosted/pub.dev/webthree-2.5.10",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
     },
     {
       "name": "yaml",
@@ -701,10 +497,13 @@
       "name": "currency_fractal",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-05-19T18:02:28.105739Z",
+  "generated": "2024-11-28T09:56:28.315470Z",
   "generator": "pub",
-  "generatorVersion": "3.3.4"
+  "generatorVersion": "3.6.0-216.1.beta",
+  "flutterRoot": "file:///home/mk/development/flutter",
+  "flutterVersion": "3.26.0-0.1.pre",
+  "pubCache": "file:///home/mk/.pub-cache"
 }
