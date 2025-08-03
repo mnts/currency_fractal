@@ -1,4 +1,4 @@
-import 'package:frac/index.dart';
+import 'package:fractal/frac/index.dart';
 
 class WalletFractal {
   final amount = Frac<double>(0);

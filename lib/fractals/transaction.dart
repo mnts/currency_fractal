@@ -1,10 +1,5 @@
-import 'dart:async';
-import 'dart:convert';
-
-import 'package:frac/ref.dart';
-import 'package:fractal_socket/index.dart';
-import 'package:signed_fractal/fr.dart';
-import 'package:signed_fractal/signed_fractal.dart';
+import 'package:fractal/fr.dart';
+import 'package:fractal/index.dart';
 
 class TransactionCtrl<T extends TransactionFractal> extends EventsCtrl<T> {
   TransactionCtrl({
@@ -13,32 +8,30 @@ class TransactionCtrl<T extends TransactionFractal> extends EventsCtrl<T> {
     required super.extend,
     required super.attributes,
   });
-
-  @override
-  final icon = IconF(0xf0b6);
 }
 
-class TransactionFractal extends EventFractal with Rewritable {
+class TransactionFractal<T extends EventFractal> extends EventFractal
+    with FlowF<T>, MF<String, T>, MFE<T>, Rewritable {
   static final controller = TransactionCtrl(
     extend: EventFractal.controller,
     attributes: <Attr>[
       Attr(
         name: 'from',
-        format: 'TEXT',
+        format: FormatF.reference,
         canNull: true,
         isIndex: true,
         isImmutable: true,
       ),
       Attr(
         name: 'thing',
-        format: 'TEXT',
+        format: FormatF.text,
         canNull: true,
         isImmutable: true,
         isIndex: true,
       ),
       Attr(
         name: 'amount',
-        format: 'REAL',
+        format: FormatF.real,
         canNull: true,
         isImmutable: true,
         isIndex: true,
@@ -46,8 +39,8 @@ class TransactionFractal extends EventFractal with Rewritable {
       Attr(
         name: 'status',
         isIndex: true,
-        format: 'INTEGER',
-        options: ['cash', 'card', 'bank', 'crypto', 'other'],
+        format: FormatF.integer,
+        //options: ['cash', 'card', 'bank', 'crypto', 'other'],
         def: '0',
       ),
     ],
@@ -83,12 +76,12 @@ class TransactionFractal extends EventFractal with Rewritable {
         super.fromMap(d) {}
 
   @override
-  operator [](String key) => switch (key) {
+  operator [](key) => switch (key) {
         'from' => from.ref,
         'thing' => thing?.ref,
         'amount' => amount,
         'status' => status,
-        _ => super[key] ?? m[key]?.content ?? extend?[key],
+        _ => super[key] ?? super[key],
       };
 
   @override
@@ -96,11 +89,4 @@ class TransactionFractal extends EventFractal with Rewritable {
         ...super.toMap(),
         for (var a in controller.attributes) a.name: this[a.name],
       };
-
-  @override
-  onWrite(f) {
-    final ok = super.onWrite(f);
-    notifyListeners();
-    return ok;
-  }
 }

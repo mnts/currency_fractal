@@ -9,14 +9,11 @@ environment:
 
 dependencies:
   path: ^1.8.0
-  frac:
-    path: ../frac
+  crypto_fractal:
+    path: ../crypto_fractal
   fractal:
     path: ../fractal
-  fractal_base:
-    path: ../fractal_base
-  signed_fractal:
-    path: ../signed_fractal
+  webthree: ^2.7.5
 
 dev_dependencies:
   lints: ^4.0.0
